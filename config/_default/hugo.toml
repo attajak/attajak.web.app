@@ -4,11 +4,11 @@
 # -------------------------------------------------------------------------------------
 
 title = "Hugo FixIt Blog"
-baseURL = "https://hugo-fixit.github.io/hugo-fixit-starter/"
+baseURL = "https://attajak.web.app"
 # theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"
-hasCJKLanguage = true
+hasCJKLanguage = false
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true

@@ -1,4 +1,4 @@
-module github.com/hugo-fixit/hugo-fixit-starter
+module github.com/attajak/attajak.web.app
 
 go 1.19
 
