@@ -40,15 +40,15 @@ disableThemeInject = false
 
 # Author Configuration
 [author]
-  name = "Lruihao"
-  email = "1024@lruihao.cn"
-  link = "https://github.com/Lruihao"
+  name = "attajak"
+  email = "janrak@gmail.com"
+  link = "https://github.com/attajak/"
   avatar = ""
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
   # e.g. "https://github.com/hugo-fixit/docs"
-  repo = ""
+  repo = "https://github.com/attajak/hugo-fixit-firebase"
   branch = "main"
   # the content directory path relative to the root of the repository
   dir = "content"
