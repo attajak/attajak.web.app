@@ -8,7 +8,7 @@ version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
 description = "This is my new Hugo FixIt site"
 # site keywords
-keywords = ["Hugo", "FixIt"]
+keywords = ["Hugo", "FixIt", "Attajak", "Janrak", "Web", "App", "Firebase", "Google"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
@@ -63,7 +63,7 @@ disableThemeInject = false
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
-  svgFavicon = ""
+  svgFavicon = "/favicon.ico"
   # Safari mask icon color
   iconColor = "#5bbad5"
   # Windows v8-10 tile color
@@ -115,9 +115,9 @@ disableThemeInject = false
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/hugo-fixit-starter/images/fixit.min.svg"
+    logo = "/favicon.ico" # "/hugo-fixit-starter/images/fixit.min.svg"
     # title name
-    name = ""
+    name = "Attajak"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -127,15 +127,15 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = ""
+    name = "attajak.web.app"
     # whether to use typeit animation for subtitle name
     typeit = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
-  enable = false
-  sticky = false
-  showHome = false
+  enable = true
+  sticky = true
+  showHome = true
   # FixIt 0.3.13 | NEW
   separator = "/"
   capitalize = true
@@ -155,7 +155,7 @@ disableThemeInject = false
   # whether to show the author
   author = true
   # Site creation year
-  since = 2021
+  since = 2024
   # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
   gov = ""
   # ICP info only in China (HTML format is supported)
@@ -177,10 +177,10 @@ disableThemeInject = false
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
-    copyright = 0
-    statistics = 0
-    visitor = 0
-    beian = 0
+    copyright = 1
+    statistics = 2
+    visitor = 3
+    beian = 4
 
 # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
 [archives]
@@ -237,13 +237,13 @@ disableThemeInject = false
   [home.profile]
     enable = true
     # Gravatar Email for preferred avatar in home page
-    gravatarEmail = "xx@xx.com"
+    gravatarEmail = "janrak@gmail.com"
     # URL of avatar shown in home page
     avatarURL = ""
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = ""
     # title shown in home page (HTML format is supported)
-    title = ""
+    title = "Attajak Janrak"
     # subtitle shown in home page (HTML format is supported)
     subtitle = "This is my new Hugo FixIt site"
     # whether to use typeit animation for subtitle
