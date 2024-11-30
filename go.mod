@@ -1,8 +1,5 @@
-module github.com/hugo-fixit/hugo-fixit-starter
+module github.com/attajak/hugo-fixit-firebase
 
-go 1.19
+go 1.20
 
-require (
-	github.com/hugo-fixit/FixIt v0.3.15 // indirect
-	github.com/hugo-fixit/shortcode-docs-bookmark v1.0.3 // indirect
-)
+require github.com/hugo-fixit/FixIt v1.2.0 // indirect
