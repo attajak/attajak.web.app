@@ -67,7 +67,7 @@ jobs:
           hugo-version: latest
           extended: true
       - name: Hugo build
-        run: hugo --gc --minify --logLevel info
+        run: hugo --gc --minify --logLevel info -b https://attajak.github.io/attajak.web.app/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
