@@ -50,7 +50,7 @@ jobs:
           key: ${{ env.cache-name }}
       - uses: actions/setup-go@v5
         with:
-          go-version: "^1.17.0"
+          go-version: "^1.20.0"
       - run: go version
       - name: Cache Go Modules
         uses: actions/cache@v4
@@ -67,7 +67,7 @@ jobs:
           hugo-version: latest
           extended: true
       - name: Hugo build
-        run: hugo --gc --minify --logLevel info -b https://attajak.github.io/attajak.web.app/
+        run: hugo --gc --minify --logLevel info --baseURL /attajak.web.app/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
