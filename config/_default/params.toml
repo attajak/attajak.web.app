@@ -550,13 +550,19 @@ disableThemeInject = false
 [customPartials]
   head = [
     "inject/fixit-docs-bookmark.html",
+    "inject/component-projects.html",
+    "inject/shortcode-rewards.html",
   ]
   profile = []
   aside = []
   comment = []
   footer = []
   widgets = []
-  assets = []
+  assets = [
+    "inject/cmpt-flyfish.html",
+    "inject/cmpt-mdevtools.html",
+    "inject/shortcode-caniuse.html",
+  ]
   postFooterBefore = []
   postFooterAfter = []
 
@@ -567,6 +573,28 @@ disableThemeInject = false
   enable = false
   # Check for updates
   c4u = false
+
+# Mobile Devtools config
+[mDevtools]
+  enable = true
+  # "eruda", "vConsole" supported
+  type = "eruda"
+
+# FlyFish
+[flyfish]
+  enable = true
+  light = "rgb(0 119 190 / 10%)"
+  dark = "rgb(255 255 255 / 10%)"
+
+[projectsAdapters]
+  enable = false
+  # Whether to show only public repos
+  onlyPublic = true
+  # Default categories and collections
+  categories = ["GitHub"]
+  collections = ["project"]
+  # Ignore repos in the ignore list
+  ignoreList = []
 
 # Page config
 [page]
@@ -915,3 +943,4 @@ disableThemeInject = false
     [page.seo.publisher]
       name = ""
       logoUrl = ""
+
