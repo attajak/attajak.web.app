@@ -490,8 +490,8 @@ disableThemeInject = false
 
 # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
 [githubCorner]
-  enable = false
-  permalink = "https://github.com/hugo-fixit/FixIt"
+  enable = true
+  permalink = "https://github.com/attajak/attajak.web.app"
   title = "View source on GitHub"
   position = "right" # ["left", "right"]
 
@@ -553,6 +553,8 @@ disableThemeInject = false
     "inject/component-projects.html",
     "inject/shortcode-rewards.html",
   ]
+  menuDesktop = []
+  menuMobile = []
   profile = []
   aside = []
   comment = []
