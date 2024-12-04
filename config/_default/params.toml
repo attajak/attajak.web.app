@@ -169,7 +169,7 @@ disableThemeInject = false
     themeLogo = true
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
-    enable = false
+    enable = true
     animate = true
     icon = "fa-solid fa-heartbeat"
     pre = ""
@@ -553,8 +553,12 @@ disableThemeInject = false
     "inject/component-projects.html",
     "inject/shortcode-rewards.html",
   ]
-  menuDesktop = []
-  menuMobile = []
+  menuDesktop = [
+    "inject/translate-menu-desktop.html",
+  ]
+  menuMobile = [
+    "inject/translate-menu-mobile.html",
+  ]
   profile = []
   aside = []
   comment = []
@@ -563,6 +567,7 @@ disableThemeInject = false
   assets = [
     "inject/cmpt-flyfish.html",
     "inject/cmpt-mdevtools.html",
+    "inject/cmpt-translate.html",
     "inject/shortcode-caniuse.html",
   ]
   postFooterBefore = []
@@ -597,6 +602,16 @@ disableThemeInject = false
   collections = ["project"]
   # Ignore repos in the ignore list
   ignoreList = []
+
+# cmpt-translate
+[autoTranslate]
+  enable = false
+  service = 'client.edge'
+  languages = []
+  ignoreID = []
+  ignoreClass = []
+  ignoreTag = []
+  detectLocalLanguage = false
 
 # Page config
 [page]
