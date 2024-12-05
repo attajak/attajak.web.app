@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Update-FixIt:
+  Update-modules:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -20,14 +20,17 @@ jobs:
           hugo-version: latest
           extended: true
 
-      - name: Update FixIt-bundle
-        run: hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest
+      - name: Update modules
+        run: hugo mod get -u # github.com/hugo-fixit/fixit-bundle@latest
 
       - name: Tidy go.mod, go.sum
         run: hugo mod tidy
 
+      - name: Graph go.mod, go.sum
+        run: hugo mod graph
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: ':arrow_up: Chore(modules): update FixIt-bundle version'
-          commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
+          commit_message: ":arrow_up: Chore(modules): update modules version"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
