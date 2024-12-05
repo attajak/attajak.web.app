@@ -17,7 +17,7 @@ fingerprint = ""
 # NEW date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
-images = []
+images = ["/images/attajak.jpg"]
 # FixIt 0.2.12 | NEW enable PWA
 enablePWA = false
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
@@ -48,7 +48,7 @@ disableThemeInject = false
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
   # e.g. "https://github.com/hugo-fixit/docs"
-  repo = "https://github.com/attajak/hugo-fixit-firebase"
+  repo = "https://github.com/attajak/attajak.web.app"
   branch = "main"
   # the content directory path relative to the root of the repository
   dir = "content"
@@ -59,7 +59,7 @@ disableThemeInject = false
 # App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Hugo FixIt Blog"
+  title = "Attajak"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
@@ -173,7 +173,7 @@ disableThemeInject = false
     animate = true
     icon = "fa-solid fa-heartbeat"
     pre = ""
-    value = "" # e.g. "2021-12-18T16:15:22+08:00"
+    value = "2021-12-18T16:15:22+07:00" # e.g. "2021-12-18T16:15:22+08:00"
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
@@ -245,7 +245,7 @@ disableThemeInject = false
     # title shown in home page (HTML format is supported)
     title = "Attajak Janrak"
     # subtitle shown in home page (HTML format is supported)
-    subtitle = "This is my new Hugo FixIt site"
+    subtitle = "ชื่อคิง เกิด 8 สิงหาฯ เลือดกรุ๊ป เอ"
     # whether to use typeit animation for subtitle
     typeit = true
     # whether to show social links
@@ -260,14 +260,14 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-  GitHub = ""
+  GitHub = "attajak"
   Linkedin = ""
-  Twitter = ""
+  Twitter = "attajak"
   Instagram = ""
-  Facebook = ""
+  Facebook = "attajak"
   Telegram = ""
   Medium = ""
-  Gitlab = ""
+  Gitlab = "attajak"
   Youtubelegacy = ""
   Youtubecustom = ""
   Youtubechannel = ""
@@ -289,7 +289,7 @@ disableThemeInject = false
   Soundcloud = ""
   Spotify = ""
   Bandcamp = ""
-  Paypal = ""
+  Paypal = "attajak"
   Fivehundredpx = ""
   Mix = ""
   Goodreads = ""
@@ -302,7 +302,7 @@ disableThemeInject = false
   Twitch = ""
   Strava = ""
   Skype = ""
-  Whatsapp = ""
+  Whatsapp = "+66627824869"
   Zhihu = ""
   Douban = ""
   Angellist = ""
@@ -311,7 +311,7 @@ disableThemeInject = false
   Deviantart = ""
   Behance = ""
   Dribbble = ""
-  Wordpress = ""
+  Wordpress = "attajak"
   Vine = ""
   Googlescholar = ""
   Researchgate = ""
@@ -345,8 +345,8 @@ disableThemeInject = false
   Douyin = ""
   TikTok = ""
   Credly = ""
-  Phone = ""
-  Email = ""
+  Phone = "+66627824869"
+  Email = "janrak@gmail.com"
   RSS = true
   # custom social links like the following
   # [social.twitter]
