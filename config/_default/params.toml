@@ -549,8 +549,8 @@ disableThemeInject = false
 # Depends on open custom blocks https://fixit.lruihao.cn/references/blocks/
 [customPartials]
   head = [
-    "inject/fixit-docs-bookmark.html",
     "inject/component-projects.html",
+    "inject/fixit-docs-bookmark.html",
     "inject/shortcode-rewards.html",
   ]
   menuDesktop = [
@@ -565,13 +565,59 @@ disableThemeInject = false
   footer = []
   widgets = []
   assets = [
-    "inject/cmpt-flyfish.html",
-    "inject/cmpt-mdevtools.html",
+    "inject/cmpt-flyfish",
+    "inject/cmpt-mdevtools",
     "inject/cmpt-translate.html",
     "inject/shortcode-caniuse.html",
   ]
   postFooterBefore = []
   postFooterAfter = []
+
+# FixIt bundle
+# cmpt-flyfish
+[flyfish]
+  enable = true
+  light = "rgb(0 119 190 / 10%)"
+  dark = "rgb(255 255 255 / 10%)"
+
+# Mobile Devtools config
+[mDevtools]
+  enable = true
+  # "eruda", "vConsole" supported
+  type = "eruda"
+
+# Auto translation configuration
+# See: https://github.com/xnx3/translate/
+[autoTranslate]
+  enable = false
+  # The translation service provider, ['client.edge', 'translate.service']
+  # See: https://translate.zvo.cn/43086.html
+  service = 'client.edge'
+  # List of language ID to translate to, e.g. ["english", "chinese_simplified", "chinese_traditional", ...]
+  # See the full language list: https://api.translate.zvo.cn/language.json
+  languages = []
+  # Element IDs that needs to be ignored for translation
+  ignoreID = []
+  # Class names that need to be ignored for translation
+  ignoreClass = []
+  # Tag names that need to be ignored for translation     ignoreTag = []
+  # Whether to detect the local language
+  # If your site itself is multilingual in Hugo, it is not recommended to enable this feature!
+  detectLocalLanguage = false
+
+# Content adapters config for component projects
+[projectsAdapters]
+  enable = false
+  # Whether to show only public repos
+  onlyPublic = true
+  # Default categories and collections
+  categories = []
+  collections = []
+  # Ignore repos in the ignore list
+  ignoreList = []
+  [projectsAdapters.params]
+    hiddenFromHomePage = true
+    # more font matter here ...
 
 # FixIt 0.2.15 | NEW Developer options
 # Select the scope named `public_repo` to generate personal access token,
@@ -580,38 +626,6 @@ disableThemeInject = false
   enable = false
   # Check for updates
   c4u = false
-
-# Mobile Devtools config
-[mDevtools]
-  enable = true
-  # "eruda", "vConsole" supported
-  type = "eruda"
-
-# FlyFish
-[flyfish]
-  enable = true
-  light = "rgb(0 119 190 / 10%)"
-  dark = "rgb(255 255 255 / 10%)"
-
-[projectsAdapters]
-  enable = false
-  # Whether to show only public repos
-  onlyPublic = true
-  # Default categories and collections
-  categories = ["GitHub"]
-  collections = ["project"]
-  # Ignore repos in the ignore list
-  ignoreList = []
-
-# cmpt-translate
-[autoTranslate]
-  enable = false
-  service = 'client.edge'
-  languages = []
-  ignoreID = []
-  ignoreClass = []
-  ignoreTag = []
-  detectLocalLanguage = false
 
 # Page config
 [page]
@@ -776,26 +790,26 @@ disableThemeInject = false
     enable = true
     Twitter = true
     Facebook = true
-    Linkedin = false
-    Whatsapp = false
+    Linkedin = true
+    Whatsapp = true
     Pinterest = false
-    Tumblr = false
+    Tumblr = true
     HackerNews = false
     Reddit = false
     VK = false
     Buffer = false
     Xing = false
-    Line = false
+    Line = true
     Instapaper = false
     Pocket = false
     Flipboard = false
-    Weibo = true
+    Weibo = false
     Myspace = false
     Blogger = false
     Baidu = false
     Odnoklassniki = false
-    Evernote = false
-    Skype = false
+    Evernote = true
+    Skype = true
     Trello = false
     Mix = false
   # FixIt 0.2.15 | CHANGED Comment config
