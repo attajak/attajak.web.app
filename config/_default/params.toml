@@ -19,7 +19,7 @@ dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
 images = ["/images/attajak.jpg"]
 # FixIt 0.2.12 | NEW enable PWA
-enablePWA = false
+enablePWA = true
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
 externalIcon = false
 # FixIt 0.3.13 | NEW whether to capitalize titles
@@ -239,7 +239,7 @@ disableThemeInject = false
     # Gravatar Email for preferred avatar in home page
     gravatarEmail = "janrak@gmail.com"
     # URL of avatar shown in home page
-    avatarURL = ""
+    avatarURL = "/about/"
     # FixIt 0.2.17 | NEW identifier of avatar menu link
     avatarMenu = ""
     # title shown in home page (HTML format is supported)
@@ -261,46 +261,46 @@ disableThemeInject = false
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
   GitHub = "attajak"
-  Linkedin = ""
+  Linkedin = "attajak"
   Twitter = "attajak"
-  Instagram = ""
+  Instagram = "attajak"
   Facebook = "attajak"
-  Telegram = ""
-  Medium = ""
+  Telegram = "attajak"
+  Medium = "attajak"
   Gitlab = "attajak"
   Youtubelegacy = ""
   Youtubecustom = ""
-  Youtubechannel = ""
-  Tumblr = ""
+  Youtubechannel = "UCi6syghkqGjNjkwytT20zxg"
+  Tumblr = "attajak"
   Quora = ""
   Keybase = ""
   Pinterest = ""
-  Reddit = ""
-  Codepen = ""
-  FreeCodeCamp = ""
-  Bitbucket = ""
-  Stackoverflow = ""
+  Reddit = "attajak"
+  Codepen = "attajak"
+  FreeCodeCamp = "attajak"
+  Bitbucket = "attajakth"
+  Stackoverflow = "attajak"
   Weibo = ""
   Odnoklassniki = ""
-  VK = ""
-  Flickr = ""
+  VK = "attajak"
+  Flickr = "attajakz"
   Xing = ""
-  Snapchat = ""
-  Soundcloud = ""
-  Spotify = ""
+  Snapchat = "attajak"
+  Soundcloud = "attajak"
+  Spotify = "attajak"
   Bandcamp = ""
   Paypal = "attajak"
   Fivehundredpx = ""
   Mix = ""
   Goodreads = ""
   Lastfm = ""
-  Foursquare = ""
+  Foursquare = "attajak"
   Hackernews = ""
   Kickstarter = ""
   Patreon = ""
-  Steam = ""
-  Twitch = ""
-  Strava = ""
+  Steam = "attajak"
+  Twitch = "attajak"
+  Strava = "attajak"
   Skype = ""
   Whatsapp = "+66627824869"
   Zhihu = ""
@@ -312,26 +312,26 @@ disableThemeInject = false
   Behance = ""
   Dribbble = ""
   Wordpress = "attajak"
-  Vine = ""
+  Vine = "attajak"
   Googlescholar = ""
   Researchgate = ""
-  Mastodon = ""
+  Mastodon = "attajak"
   Thingiverse = ""
-  Devto = ""
+  Devto = "attajak"
   Gitea = ""
   XMPP = ""
   Matrix = ""
-  Bilibili = ""
+  Bilibili = "attajak"
   ORCID = ""
   Liberapay = ""
   Ko-Fi = ""
   BuyMeaCoffee = ""
-  Linktree = ""
+  Linktree = "attajak"
   QQ = ""
   QQGroup = "" # https://qun.qq.com/join.html
   Diaspora = ""
   CSDN = ""
-  Discord = ""
+  Discord = "attajak"
   DiscordInvite = ""
   Lichess = ""
   Pleroma = ""
@@ -343,7 +343,7 @@ disableThemeInject = false
   Feishu = ""
   TryHackMe = ""
   Douyin = ""
-  TikTok = ""
+  TikTok = "attajak"
   Credly = ""
   Phone = "+66627824869"
   Email = "janrak@gmail.com"
@@ -447,9 +447,9 @@ disableThemeInject = false
 # Site SEO config
 [seo]
   # image URL
-  image = ""
+  image = "/images/attajak.jpg"
   # thumbnail URL
-  thumbnailUrl = ""
+  thumbnailUrl = "https://attajak.web.app/"
 
 # Analytics config
 [analytics]
@@ -467,7 +467,7 @@ disableThemeInject = false
 
 # Cookie consent config
 [cookieconsent]
-  enable = true
+  enable = false
   # text strings used for Cookie consent banner
   [cookieconsent.content]
     message = ""
@@ -501,7 +501,7 @@ disableThemeInject = false
   enable = true
   # Gravatar host, default: "www.gravatar.com"
   host = "www.gravatar.com" # ["cravatar.cn", "gravatar.loli.net", ...]
-  style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
+  style = "monsterid" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
 
 # FixIt 0.2.16 | NEW Back to top
 [backToTop]
@@ -511,7 +511,7 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
-  enable = false
+  enable = true
   # Available values: ["left", "right"]
   start = "left"
   # Available values: ["top", "bottom"]
