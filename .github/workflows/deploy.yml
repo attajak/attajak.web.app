@@ -18,7 +18,7 @@ on:
       - 'go.mod'
       - 'go.sum'
   workflow_run:
-    workflows: ['Update FixIt-bundle']
+    workflows: ['Update modules']
     types:
       - completed
   workflow_dispatch:
