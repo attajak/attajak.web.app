@@ -17,11 +17,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 0.139.4 #"latest"
+          hugo-version: "latest"
           extended: true
 
       - name: Update hugo modules
-        run: hugo mod get -u # github.com/hugo-fixit/fixit-bundle@latest
+        run: hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest
 
       - name: Tidy go.mod, go.sum
         run: hugo mod tidy

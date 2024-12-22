@@ -11,4 +11,4 @@
 
 # [Hugo-FixIt-Starter](https://github.com/hugo-fixit/hugo-fixit-starter)
 
-hugo-fixit-starter (hugo modules) [README](README.en.md)
+[README](README.en.md) | [简体中文](README.cn.md)

@@ -64,7 +64,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 0.139.4 # latest
+          hugo-version: latest
           extended: true
       - name: Hugo build
         run: hugo --gc --minify --logLevel info --baseURL /attajak.web.app/
