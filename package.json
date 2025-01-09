@@ -9,7 +9,7 @@
     "server": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0 -b http://localhost/ --logLevel info -O",
     "server:production": "npm run server -- --environment production",
     "server:development": "HUGO_MODULE_WORKSPACE=hugo.work npm run server -- --ignoreVendorPaths \"**\"",
-    "update": "echo 'Upgrade FixIt-bundle' && hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && echo 'Clean old modules' && hugo mod tidy && echo 'List of Hugo modules' && hugo mod graph"
+    "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && echo 'Upgraded' && hugo mod tidy && echo 'Remove unused entries in go.mod and go.sum' && echo 'Module dependency graph with information about module status (disabled, vendored).' && hugo mod graph"
   },
   "repository": {
     "type": "git",
