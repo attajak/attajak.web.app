@@ -17,7 +17,7 @@ GitHub Pages: | <https://attajak.github.io>
 GitLab: | [attajak](https://gitlab.com/attajak)
 GitLab Pages: | <https://attajak.gitlab.io>
 CloudFlare Pages: | <https://attajak.pages.dev>
-Google Firebase: | <https://attajak.web.io>
+Google Firebase: | <https://attajak.web.app>
 Replit: | [@attajak](https://replit.com/@attajak)
 Facebook: | [attajak](https://facebook.com/attajak)
 Twitter: | [@attajak](https://twitter.com/attajak)
