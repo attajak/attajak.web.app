@@ -4,7 +4,7 @@ on:
     branches: [ main ]
     paths:
       - '.github/workflows/**'
-      - 'archetypes/**'
+      # - 'archetypes/**'
       - 'assets/**'
       - 'config/**'
       - 'content/**'
@@ -13,7 +13,7 @@ on:
       - 'layouts/**'
       - 'static/**'
       - 'themes/**'
-      - 'config.toml'
+      # - 'config.toml'
       - 'hugo.toml'
       - 'go.mod'
       - 'go.sum'
@@ -48,6 +48,8 @@ jobs:
         with:
           path: resources
           key: ${{ env.cache-name }}
+          submodules: true
+          fetch-depth: 0
       - uses: actions/setup-go@v5
         with:
           go-version: "^1.23.0"
@@ -67,7 +69,7 @@ jobs:
           hugo-version: latest
           extended: true
       - name: Hugo build
-        run: hugo --gc --minify --logLevel info --baseURL /attajak.web.app/
+        run: hugo --gc --minify --logLevel info --baseURL ${{ steps.deployment.outputs.page_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
