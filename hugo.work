@@ -2,3 +2,4 @@ go 1.23
 
 use .
 use ../fixit-bundle
+use ../FixIt

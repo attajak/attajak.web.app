@@ -91,3 +91,13 @@
   weight = 4
   [main.params]
     icon = "fa-solid fa-envelope"
+[[main]]
+  identifier = "projects"
+  parent = ""
+  pre = ""
+  name = "Projects"
+  url = "/projects/"
+  title = ""
+  weight = "5"
+  [main.params]
+    icon = "fa-solid fa-laptop-code"
