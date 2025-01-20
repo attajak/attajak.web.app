@@ -1,8 +1,8 @@
 # Hugo FixIt Blog Template (Go)
 
-👉 English | [简体中文](README.cn.md)
+👉 English | [简体中文](README.md)
 
-This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Hugo Modules](https://gohugo.io/hugo-modules/) feature to load the theme.
+This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Hugo Modules](https://gohugo.io/hugo-modules/) feature to load the theme. If you favor Git more, you can [check this template](https://github.com/hugo-fixit/hugo-fixit-starter1).
 
 It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the blog to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
 
@@ -32,6 +32,14 @@ For a complete quick start, see this [page](https://fixit.lruihao.cn/documentati
 - [Hugo](https://gohugo.io/installation/) (extended version)
 
 ### Use Template
+
+#### CLI
+
+```bash
+npx fixit-cli create my-blog
+```
+
+#### Manual
 
 1. Click [**Use this template**](https://github.com/hugo-fixit/hugo-fixit-starter/generate), and create your repository on GitHub.
 
