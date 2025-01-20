@@ -26,6 +26,6 @@
 - [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema): A Hugo theme component with asciinema-embed shortcode.
 - [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse): 一个含有 caniuse shortcode 的 Hugo 主题组件。
 - [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark): 🔖 Embed bookmark of FixIt Docs.
-- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease): 🎶 一个含���网易云随机评论 shortcode 的 Hugo 主题组件。
+- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease): 🎶 一个含有网易云随机评论 shortcode 的 Hugo 主题组件。
 - [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards): A Hugo theme component with reward-log or sponsor-log shortcode.
 <!-- HUGO_FIXIT_COMPONENTS:END -->
