@@ -17,7 +17,7 @@ fingerprint = ""
 # NEW date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
-images = ["/images/attajak.jpg"]
+images = ["/images/attajak.jxl"]
 # FixIt 0.2.12 | NEW enable PWA
 enablePWA = true
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
@@ -127,7 +127,7 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = "attajak.web.app"
+    name = ""
     # whether to use typeit animation for subtitle name
     typeit = false
 
@@ -447,7 +447,7 @@ disableThemeInject = false
 # Site SEO config
 [seo]
   # image URL
-  image = "/images/attajak.jpg"
+  image = "/images/attajak.jxl"
   # thumbnail URL
   thumbnailUrl = "https://attajak.web.app/"
 
@@ -973,8 +973,8 @@ disableThemeInject = false
   # Page SEO config
   [page.seo]
     # image URL
-    images = []
+    images = ["/images/attajak.jxl"]
     # Publisher info
     [page.seo.publisher]
-      name = ""
-      logoUrl = ""
+      name = "attajak"
+      logoUrl = "https://attajak.web.app/"
