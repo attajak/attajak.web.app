@@ -8,7 +8,7 @@ version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
 description = "This is my new Hugo FixIt site"
 # site keywords
-keywords = ["Hugo", "FixIt", "Attajak", "Janrak", "Web", "App", "Firebase", "Google"]
+keywords = ["Hugo", "FixIt", "Attajak", "Janrak", "Web", "App", "Firebase", "Google", "GitHub"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
@@ -127,7 +127,7 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = ""
+    name = "Attajak Janrak"
     # whether to use typeit animation for subtitle name
     typeit = false
 
@@ -301,7 +301,7 @@ disableThemeInject = false
   Steam = "attajak"
   Twitch = "attajak"
   Strava = "attajak"
-  Skype = ""
+  Skype = "attajak"
   Whatsapp = "+66627824869"
   Zhihu = ""
   Douban = ""
@@ -334,7 +334,7 @@ disableThemeInject = false
   Discord = "attajak"
   DiscordInvite = ""
   Lichess = ""
-  Pleroma = ""
+  Pleroma = "attajak"
   Kaggle = ""
   MediaWiki= ""
   Plume = ""
@@ -796,10 +796,10 @@ disableThemeInject = false
     Facebook = true
     Linkedin = true
     Whatsapp = true
-    Pinterest = false
+    Pinterest = true
     Tumblr = true
     HackerNews = false
-    Reddit = false
+    Reddit = true
     VK = false
     Buffer = false
     Xing = false
@@ -808,8 +808,8 @@ disableThemeInject = false
     Pocket = false
     Flipboard = false
     Weibo = false
-    Myspace = false
-    Blogger = false
+    Myspace = true
+    Blogger = true
     Baidu = false
     Odnoklassniki = false
     Evernote = true
