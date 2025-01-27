@@ -10,7 +10,7 @@ on:
 
 jobs:
   update-hugo-modules:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -27,7 +27,7 @@ jobs:
       - name: Tidy go.mod, go.sum
         run: hugo mod tidy
 
-      - name: Graph go.mod, go.sum
+      - name: List of Hugo modules
         run: hugo mod graph
 
       - name: Commit changes

@@ -8,8 +8,8 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly" # "monthly"
-    open-pull-requests-limit: 10
+      interval: "monthly"
+    open-pull-requests-limit: 1000
     assignees:
       - "attajak"
     labels:
@@ -17,8 +17,8 @@ updates:
   - package-ecosystem: "gomod" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily" # "monthly"
-    open-pull-requests-limit: 10
+      interval: "weekly"
+    open-pull-requests-limit: 1000
     assignees:
       - "attajak"
     labels:
