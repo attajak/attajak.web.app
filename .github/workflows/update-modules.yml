@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  content: write
+  contents: write
 
 jobs:
   update-hugo-modules:
