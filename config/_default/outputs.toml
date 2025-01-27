@@ -3,4 +3,9 @@
 # See: https://gohugo.io/templates/output-formats/#customizing-output-formats
 # -------------------------------------------------------------------------------------
 
-_merge = "shadow"
+  _merge = "shadow"
+  home = ["html", "rss", "json", "archives", "offline", "search"]
+  page = ["html", "markdown"]
+  section = ["html", "rss", "json"]
+  taxonomy = ["html"]
+  term = ["html", "rss", "json"]
