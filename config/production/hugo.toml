@@ -3,17 +3,17 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "Hugo FixIt Blog"
-baseURL = "https://hugo-fixit.github.io/hugo-fixit-starter/"
+title = "Attajak Janrak"
+baseURL = "/"
 # theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = true
-enableRobotsTXT = false
+enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
-relativeURLs = true
-buildDrafts = true
+relativeURLs = false
+buildDrafts = false
 summaryLength = 150
 # ignore some build errors
 ignoreLogs = [
