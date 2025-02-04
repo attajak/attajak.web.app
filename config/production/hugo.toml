@@ -22,3 +22,8 @@ ignoreLogs = [
   "error-remote-getjson",
   "error-missing-instagram-accesstoken"
 ]
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = "page"

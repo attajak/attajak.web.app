@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "create": "hugo new content",
-    "build": "hugo --gc --minify --logLevel info",
+    "build": "HUGO_ENVIRONMENT=production hugo --gc --minify -e production --logLevel info",
     "server": "hugo server -D -E -F --disableFastRender --navigateToChanged --bind 0.0.0.0 -b http://localhost:1313/ --logLevel info -O",
     "server:production": "npm run server -- --environment production",
     "server:development": "HUGO_MODULE_WORKSPACE=hugo.work npm run server -- --ignoreVendorPaths \"**\"",
-    "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy && hugo mod graph"
+    "update": "hugo mod get -u && hugo mod tidy && hugo mod graph"
   },
   "repository": {
     "type": "git",
