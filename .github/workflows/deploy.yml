@@ -4,7 +4,6 @@ on:
     branches: [ main ]
     paths:
       - '.github/workflows/**'
-      # - 'archetypes/**'
       - 'assets/**'
       - 'config/**'
       - 'content/**'
@@ -13,12 +12,10 @@ on:
       - 'layouts/**'
       - 'static/**'
       - 'themes/**'
-      - 'config.toml'
-      - 'hugo.toml'
       - 'go.mod'
       - 'go.sum'
   workflow_run:
-    workflows: ['Update hugo modules']
+    workflows: ['Update modules']
     types:
       - completed
   workflow_dispatch:
@@ -53,7 +50,7 @@ jobs:
           key: ${{ env.cache-name }}
       - uses: actions/setup-go@v5
         with:
-          go-version: "^1.23.0"
+          go-version: "^1.20.0"
       - run: go version
       - name: Cache Go Modules
         uses: actions/cache@v4

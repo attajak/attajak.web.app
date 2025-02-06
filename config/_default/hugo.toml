@@ -12,8 +12,8 @@ hasCJKLanguage = true
 enableRobotsTXT = false
 enableEmoji = true
 enableGitInfo = true
-relativeURLs = true
-buildDrafts = true
+relativeURLs = false
+buildDrafts = false
 summaryLength = 150
 # ignore some build errors
 ignoreLogs = [

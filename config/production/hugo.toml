@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "Attajak Janrak"
-baseURL = "/"
+baseURL = "https://attajak.web.app/"
 # theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"
@@ -22,8 +22,3 @@ ignoreLogs = [
   "error-remote-getjson",
   "error-missing-instagram-accesstoken"
 ]
-
-[pagination]
-  disableAliases = false
-  pagerSize = 10
-  path = "page"

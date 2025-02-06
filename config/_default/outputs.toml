@@ -4,8 +4,8 @@
 # -------------------------------------------------------------------------------------
 
   _merge = "shadow"
-  home = ["html", "rss", "json", "archives", "offline", "search"]
+  home = ["html", "rss", "jsonfeed", "archives", "offline", "search"]
   page = ["html", "markdown"]
-  section = ["html", "rss", "json"]
+  section = ["html", "rss", "jsonfeed"]
   taxonomy = ["html"]
-  term = ["html", "rss", "json"]
+  term = ["html", "rss", "jsonfeed"]

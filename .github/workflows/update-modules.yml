@@ -1,4 +1,4 @@
-name: Update hugo modules
+name: Update modules
 
 # Controls when the workflow will run
 on:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  update-hugo-modules:
+  update-modules:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,7 +26,7 @@ jobs:
 
       - name: Update hugo modules
         run: |
-          hugo mod get -u # github.com/hugo-fixit/fixit-bundle@latest
+          hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest
           hugo mod tidy
           hugo mod graph
 
@@ -43,5 +43,5 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: ":arrow_up: Chore(modules): Update hugo modules"
+          commit_message: ":arrow_up: Chore(modules): Update modules"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
