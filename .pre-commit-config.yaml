@@ -12,12 +12,4 @@ repos:
         args: ['--allow-multiple-documents']
       - id: check-added-large-files
         args: ['--enforce-all']
-      - id: check-json
       - id: check-toml
-      - id: double-quote-string-fixer
-      - id: pretty-format-json
-        args: ['--autofix', '--no-sort-keys']
-  - repo: https://github.com/asottile/add-trailing-comma
-    rev: v3.1.0
-    hooks:
-      - id: add-trailing-comma
