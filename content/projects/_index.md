@@ -6,5 +6,3 @@ sectionSlot: # "Some text to display in the section slot which is above the rela
 layout: "projects"
 draft: false
 ---
-
-My projects on GitHub [attajak](https://github.com/attajak).
