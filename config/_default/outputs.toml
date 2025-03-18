@@ -3,7 +3,7 @@
 # See: https://gohugo.io/templates/output-formats/#customizing-output-formats
 # -------------------------------------------------------------------------------------
 
-  _merge = "shadow"
+  _merge = "shallow"
   home = ["html", "rss", "jsonfeed", "archives", "offline", "search"]
   page = ["html", "markdown"]
   section = ["html", "rss", "jsonfeed"]
