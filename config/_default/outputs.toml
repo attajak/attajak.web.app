@@ -3,9 +3,9 @@
 # See: https://gohugo.io/templates/output-formats/#customizing-output-formats
 # -------------------------------------------------------------------------------------
 
-  _merge = "shallow"
-  home = ["html", "rss", "jsonfeed", "archives", "offline", "search"]
-  page = ["html", "markdown"]
-  section = ["html", "rss", "jsonfeed"]
-  taxonomy = ["html"]
-  term = ["html", "rss", "jsonfeed"]
+_merge = "shallow"
+home = ["html", "rss", "atom", "jsonfeed", "archives", "offline", "search"]
+page = ["html", "markdown"]
+section = ["html", "rss", "atom", "jsonfeed"]
+taxonomy = ["html"]
+term = ["html", "rss", "atom", "jsonfeed"]
