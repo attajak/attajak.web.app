@@ -12,10 +12,12 @@ on:
       - 'layouts/**'
       - 'static/**'
       - 'themes/**'
+      - 'config.*'
       - 'go.mod'
       - 'go.sum'
+      - 'hugo.*'
   workflow_run:
-    workflows: ['Update modules']
+    workflows: ['Update hugo modules']
     types:
       - completed
   workflow_dispatch:
@@ -87,3 +89,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+  deploy-to-firebase:
+    run-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ATTAJAK }}
+          channelId: live
+          projectId: attajak
