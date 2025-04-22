@@ -7,6 +7,7 @@
   "scripts": {
     "create": "hugo new content",
     "build": "HUGO_ENV=production hugo --gc --minify --logLevel info",
+    "prepare": "git submodule update --init --recursive && git submodule update --remote --merge",
     "server": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info --bind 0.0.0.0 -b http://localhost:1313/",
     "server:production": "HUGO_ENV=production npm run server -- --environment production",
     "update": "hugo mod get -u && hugo mod tidy && hugo mod graph"

@@ -55,7 +55,7 @@
   name = "Home"
   url = "/"
   title = ""
-  weight = 1
+  weight = 10
   [main.params]
     icon = "fa-solid fa-home"
 [[main]]
@@ -66,7 +66,7 @@
   name = "Posts"
   url = "/posts/"
   title = ""
-  weight = 3
+  weight = 20
   [main.params]
     icon = "fa-solid fa-pen"
 [[main]]
@@ -77,7 +77,7 @@
   name = "About"
   url = "/about/"
   title = ""
-  weight = 4
+  weight = 40
   [main.params]
     icon = "fa-solid fa-signature"
 [[main]]
@@ -88,7 +88,7 @@
   name = "Contact"
   url = "/contact/"
   title = ""
-  weight = 5
+  weight = 50
   [main.params]
     icon = "fa-solid fa-envelope"
 [[main]]
@@ -98,6 +98,6 @@
   name = "Projects"
   url = "/projects/"
   title = ""
-  weight = 2
+  weight = 30
   [main.params]
     icon = "fa-solid fa-laptop-code"
