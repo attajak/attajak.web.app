@@ -26,3 +26,14 @@ updates:
       - "dependencies"
       - "components"
       - "modules"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 1000
+    assignees:
+      - "attajak"
+    labels:
+      - "modules"
+      - "dependencies"
+      - "components"
