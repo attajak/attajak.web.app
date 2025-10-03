@@ -16,7 +16,7 @@
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\
  Mobile devtools component powered by vConsole and eruda.
 - [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\
- ��� A component for site automatic translation.
+ 🌐 A component for site automatic translation.
 - [component-projects](https://github.com/hugo-fixit/component-projects)\
  🐙 Display your GitHub projects in the FixIt theme and generate blog posts from readme.
 - [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\
