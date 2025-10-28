@@ -564,12 +564,7 @@ disableThemeInject = false
   comment = []
   footer = []
   widgets = []
-  assets = [
-    "inject/cmpt-flyfish",
-    "inject/cmpt-mdevtools",
-    "inject/cmpt-translate.html",
-    "inject/shortcode-caniuse.html",
-  ]
+  assets = []
   postTocBefore = []
   postTocAfter = []
   postContentBefore = []
@@ -580,13 +575,13 @@ disableThemeInject = false
 # FixIt bundle
 # cmpt-flyfish
 [flyfish]
-  enable = true
+  enable = false
   light = "rgb(0 119 190 / 10%)"
   dark = "rgb(255 255 255 / 10%)"
 
 # Mobile Devtools config
 [mDevtools]
-  enable = true
+  enable = false
   # "eruda", "vConsole" supported
   type = "eruda"
 
