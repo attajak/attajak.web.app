@@ -3,6 +3,7 @@
 # See: https://gohugo.io/getting-started/configuration-markup/
 # -------------------------------------------------------------------------------------
 
+_merge = "shallow"
 # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
 [highlight]
   ########## necessary configurations ##########

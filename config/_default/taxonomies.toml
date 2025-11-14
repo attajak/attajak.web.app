@@ -3,6 +3,7 @@
 # See: https://gohugo.io/content-management/taxonomies/#configure-taxonomies
 # -------------------------------------------------------------------------------------
 
+_merge = "shallow"
 category = "categories"
 tag = "tags"
 collection = "collections"
