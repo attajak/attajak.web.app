@@ -564,7 +564,12 @@ disableThemeInject = false
   comment = []
   footer = []
   widgets = []
-  assets = []
+  assets = [
+    "inject/cmpt-flyfish.html",
+    "inject/cmpt-mdevtools.html",
+    "inject/cmpt-translate.html",
+    "inject/shortcode-caniuse.html",
+    ]
   postTocBefore = []
   postTocAfter = []
   postContentBefore = []

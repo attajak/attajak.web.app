@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "create": "hugo new",
-    "build": "HUGO_ENV=production hugo --gc --minify --logLevel info",
-    "preupdate": "git submodule update --init --recursive && git submodule update --remote --merge",
-    "server": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info --bind 0.0.0.0 --port 5000 --appendPort=false",
-    "server:production": "HUGO_ENV=production npm run server -- --environment production",
-    "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy && hugo mod graph",
-    "postupdate": "git add go.mod go.sum && git commit -m ':arrow_up: Chore(FixIt): Update fixit-bundle version' && git push origin main"
+    "build": "HUGO_ENVIRONMENT=production hugo --gc --minify --logLevel info",
+    "preupdate": "git submodule update --init --recursive",
+    "server": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info --bind 0.0.0.0",
+    "server:production": "HUGO_ENVIRONMENT=production npm run server -- --environment production",
+    "update": "git submodule update --remote --merge && hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy && hugo mod graph",
+    "postupdate": "git add .gitmodules go.mod go.sum && git commit -m ':arrow_up: Chore(FixIt): Update fixit-bundle version' && git push origin main"
   },
   "repository": {
     "type": "git",
