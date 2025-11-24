@@ -551,13 +551,13 @@ disableThemeInject = false
   head = [
     "inject/component-projects.html",
     "inject/fixit-docs-bookmark.html",
-    "inject/shortcode-rewards.html",
+    "inject/shortcode-rewards.html"
   ]
   menuDesktop = [
-    "inject/translate-menu-desktop.html",
+    "inject/translate-menu-desktop.html"
   ]
   menuMobile = [
-    "inject/translate-menu-mobile.html",
+    "inject/translate-menu-mobile.html"
   ]
   profile = []
   aside = []
@@ -568,7 +568,7 @@ disableThemeInject = false
     "inject/cmpt-flyfish.html",
     "inject/cmpt-mdevtools.html",
     "inject/cmpt-translate.html",
-    "inject/shortcode-caniuse.html",
+    "inject/shortcode-caniuse.html"
     ]
   postTocBefore = []
   postTocAfter = []
