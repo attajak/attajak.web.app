@@ -580,13 +580,13 @@ disableThemeInject = false
 # FixIt bundle
 # cmpt-flyfish
 [flyfish]
-  enable = false
+  enable = true
   light = "rgb(0 119 190 / 10%)"
   dark = "rgb(255 255 255 / 10%)"
 
 # Mobile Devtools config
 [mDevtools]
-  enable = false
+  enable = true
   # "eruda", "vConsole" supported
   type = "eruda"
 
