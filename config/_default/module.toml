@@ -4,9 +4,6 @@
 # -------------------------------------------------------------------------------------
 
 [[imports]]
-  path = "github.com/hugo-fixit/FixIt"
-
-[[imports]]
   path = "github.com/hugo-fixit/fixit-bundle"
 
 [hugoVersion]

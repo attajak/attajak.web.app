@@ -115,7 +115,7 @@ disableThemeInject = false
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/images/attajak.jxl" # "/hugo-fixit-starter/images/fixit.min.svg"
+    logo = "/favicon.ico" # "/hugo-fixit-starter/images/fixit.min.svg"
     # title name
     name = "Attajak"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -580,7 +580,7 @@ disableThemeInject = false
 # FixIt bundle
 # cmpt-flyfish
 [flyfish]
-  enable = true
+  enable = false
   light = "rgb(0 119 190 / 10%)"
   dark = "rgb(255 255 255 / 10%)"
 
