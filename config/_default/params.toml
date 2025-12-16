@@ -115,7 +115,7 @@ disableThemeInject = false
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/favicon.ico" # "/hugo-fixit-starter/images/fixit.min.svg"
+    logo = "/images/attajak.jxl" # "/hugo-fixit-starter/images/fixit.min.svg"
     # title name
     name = "Attajak"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -501,7 +501,7 @@ disableThemeInject = false
   enable = true
   # Gravatar host, default: "www.gravatar.com"
   host = "www.gravatar.com" # ["cravatar.cn", "gravatar.loli.net", ...]
-  style = "monsterid" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
+  style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
 
 # FixIt 0.2.16 | NEW Back to top
 [backToTop]
@@ -586,7 +586,7 @@ disableThemeInject = false
 
 # Mobile Devtools config
 [mDevtools]
-  enable = true
+  enable = false
   # "eruda", "vConsole" supported
   type = "eruda"
 
