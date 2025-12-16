@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "Attajak Janrak"
-baseURL = "/"
+baseURL = "https://attajak.web.app/"
 # theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"
