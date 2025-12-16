@@ -7,6 +7,7 @@ on:
     branches:
       - main
     paths:
+      - '.github/workflows/**'
       - 'assets/**'
       - 'config/**'
       - 'content/**'
@@ -20,7 +21,7 @@ on:
       - 'go.mod'
       - 'go.sum'
   workflow_run:
-    workflows: ['Update hugo modules']
+    workflows: ['Update modules']
     types:
       - completed
   workflow_dispatch:

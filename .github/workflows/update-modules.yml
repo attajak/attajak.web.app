@@ -1,4 +1,4 @@
-name: Update hugo modules
+name: Update modules
 
 # Controls when the workflow will run
 on:
@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -24,10 +27,12 @@ jobs:
           hugo-version: ${{ vars.HUGO_VERSION || 'latest' }}
           extended: true
 
+      - name: Update git modules
+        run: git submodule update --remote --merge
+
       - name: Update hugo modules
         run: |
-          hugo mod get -u github.com/hugo-fixit/FixIt@main
-          hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest
+          hugo mod get -u ./...
           hugo mod tidy
           hugo mod graph
 
