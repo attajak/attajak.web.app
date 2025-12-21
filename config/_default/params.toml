@@ -127,7 +127,7 @@ disableThemeInject = false
   # FixIt 0.2.12 | NEW Header subtitle config
   [header.subtitle]
     # subtitle name
-    name = "Attajak Janrak"
+    name = "attajak.web.app"
     # whether to use typeit animation for subtitle name
     typeit = false
 
@@ -493,7 +493,7 @@ disableThemeInject = false
   enable = true
   permalink = "https://github.com/attajak/attajak.web.app"
   title = "View source on GitHub"
-  position = "right" # ["left", "right"]
+  position = "left" # ["left", "right"]
 
 # FixIt 0.2.14 | NEW Gravatar config
 [gravatar]
@@ -507,7 +507,7 @@ disableThemeInject = false
 [backToTop]
   enable = true
   # Scroll percent label in b2t button
-  scrollpercent = false
+  scrollpercent = true
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
@@ -800,13 +800,13 @@ disableThemeInject = false
     Tumblr = true
     HackerNews = false
     Reddit = true
-    VK = false
-    Buffer = false
+    VK = true
+    Buffer = true
     Xing = false
     Line = true
-    Instapaper = false
-    Pocket = false
-    Flipboard = false
+    Instapaper = true
+    Pocket = true
+    Flipboard = true
     Weibo = false
     Myspace = true
     Blogger = true
@@ -976,5 +976,5 @@ disableThemeInject = false
     images = ["/images/attajak.jxl"]
     # Publisher info
     [page.seo.publisher]
-      name = "attajak"
+      name = "Attajak Janrak"
       logoUrl = "https://attajak.web.app/"
