@@ -43,11 +43,11 @@ jobs:
         with:
           comment_tag_name: HUGO_FIXIT_COMPONENTS
           readme_path: 'README.md' # 'README.md,README.en.md'
-          exclude_repos: 'fixit-bundle'
+          # exclude_repos: 'fixit-bundle'
           template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description}"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: ":arrow_up: Chore(modules): Update modules"
+          commit_message: ":arrow_up: Chore(Modules): Update modules"
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
