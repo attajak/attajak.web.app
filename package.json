@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "create": "hugo new content",
-    "clean": "hugo mod clean && rm -rf .hugo_build.log resource public _vendor",
+    "clean": "rm -rf .hugo_build.log resource public _vendor",
     "build": "hugo --gc --minify --logLevel info",
     "server": "hugo server -D -E -F -N -M -O --gc --minify --disableFastRender --logLevel info --bind 0.0.0.0 -b http://localhost:1313/",
     "server:production": "npm run server -- --environment production",
     "preupdate": "git submodule update --init --recursive && git submodule update --remote --merge",
-    "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy && hugo mod graph"
+    "update": "hugo mod get -u && hugo mod tidy && hugo mod graph"
   },
   "repository": {
     "type": "git",

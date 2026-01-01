@@ -32,7 +32,7 @@ jobs:
 
       - name: Update hugo modules
         run: |
-          hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest
+          hugo mod get -u
           hugo mod tidy
           hugo mod graph
 
