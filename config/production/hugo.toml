@@ -3,8 +3,8 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "Attajak Janrak"
-baseURL = "https://attajak.web.app/"
+title = "Attajak"
+baseURL = "https://attajak.web.app"
 # theme = "FixIt"
 defaultContentLanguage = "en"
 languageCode = "en"

@@ -17,7 +17,7 @@ fingerprint = ""
 # NEW date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
-images = ["/images/attajak.jxl"]
+images = ["/images/attajak.jpg"]
 # FixIt 0.2.12 | NEW enable PWA
 enablePWA = true
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
@@ -43,7 +43,7 @@ disableThemeInject = false
   name = "attajak"
   email = "janrak@gmail.com"
   link = "https://github.com/attajak/"
-  avatar = ""
+  avatar = "/images/attajak.jpg"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
@@ -115,7 +115,7 @@ disableThemeInject = false
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/favicon.ico" # "/hugo-fixit-starter/images/fixit.min.svg"
+    logo = "/images/attajak.jpg"
     # title name
     name = "Attajak"
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -467,7 +467,7 @@ disableThemeInject = false
 
 # Cookie consent config
 [cookieconsent]
-  enable = false
+  enable = true
   # text strings used for Cookie consent banner
   [cookieconsent.content]
     message = ""
@@ -569,7 +569,7 @@ disableThemeInject = false
     "inject/cmpt-mdevtools.html",
     "inject/cmpt-translate.html",
     "inject/shortcode-caniuse.html",
-    "inject/cmpt-santa-hat.html",
+    "inject/santa-hat.fixit.html",
     ]
   postTocBefore = []
   postTocAfter = []
