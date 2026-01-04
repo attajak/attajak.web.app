@@ -1,6 +1,6 @@
 # -------------------------------------------------------------------------------------
 # Taxonomies Configuration
-# See: https://gohugo.io/content-management/taxonomies/#configure-taxonomies
+# See: https://gohugo.io/configuration/taxonomies/
 # -------------------------------------------------------------------------------------
 
 _merge = "shallow"

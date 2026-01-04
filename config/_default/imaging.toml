@@ -1,11 +1,7 @@
 # -------------------------------------------------------------------------------------
-# Modules Configuration
-# See: https://gohugo.io/configuration/module/
+# Imaging Configuration
+# See: https://gohugo.io/configuration/imaging/
 # -------------------------------------------------------------------------------------
 
-[hugoVersion]
-extended = true
-min = "0.147.7"
-
-[[imports]]
-path = "github.com/hugo-fixit/fixit-bundle"
+_merge = "shallow"
+quality = 75

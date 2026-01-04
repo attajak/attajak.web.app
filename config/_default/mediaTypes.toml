@@ -1,11 +1,7 @@
 # -------------------------------------------------------------------------------------
-# Modules Configuration
-# See: https://gohugo.io/configuration/module/
+# Media Types Configuration
+# See: https://gohugo.io/configuration/media-types/
 # -------------------------------------------------------------------------------------
 
-[hugoVersion]
-extended = true
-min = "0.147.7"
-
-[[imports]]
-path = "github.com/hugo-fixit/fixit-bundle"
+# [mediaTypes."application/feed+json"]
+# suffixes = ["json"]

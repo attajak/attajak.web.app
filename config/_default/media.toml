@@ -1,7 +1,0 @@
-# -------------------------------------------------------------------------------------
-# Media Types                                                  # See: https://gohugo.io/templates/output-formats/#media-types
-# -------------------------------------------------------------------------------------
-
-[mediaTypes]
-  [mediaTypes."application/feed+json"]
-    suffixes = ["json"]
