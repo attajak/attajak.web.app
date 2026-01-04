@@ -3,7 +3,11 @@ module github.com/attajak/attajak.web.app
 go 1.25
 
 require (
+<<<<<<< HEAD
 	github.com/hugo-fixit/FixIt v0.4.0 // indirect
+=======
+	github.com/hugo-fixit/FixIt v0.4.0-rc // indirect
+>>>>>>> main
 	github.com/hugo-fixit/cmpt-flyfish v1.1.0 // indirect
 	github.com/hugo-fixit/cmpt-mdevtools v1.1.0 // indirect
 	github.com/hugo-fixit/cmpt-santa-hat v1.0.3 // indirect
