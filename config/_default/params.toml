@@ -593,7 +593,7 @@ objectFit = false
 [githubCorner]
 enable = true
 permalink = "https://github.com/attajak/attajak.web.app"
-title = "View source on GitLab"
+title = "View source on GitHub"
 position = "right" # ["left", "right"]
 
 # FixIt 0.2.14 | NEW Gravatar config
