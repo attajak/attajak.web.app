@@ -592,7 +592,7 @@ objectFit = false
 # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
 [githubCorner]
 enable = true
-permalink = "https://github.com/attajak/attajak.gitlab.io"
+permalink = "https://github.com/attajak/attajak.web.app"
 title = "View source on GitLab"
 position = "right" # ["left", "right"]
 
