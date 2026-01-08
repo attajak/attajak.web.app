@@ -8,10 +8,13 @@
     "create": "hugo new content",
     "clean": "rm -rf .hugo_build.log resource public _vendor",
     "build": "hugo --gc --minify --logLevel info",
-    "start": "hugo server -D -E -F -N -M -O --gc --minify --disableFastRender --logLevel info --bind 0.0.0.0 -b http://localhost",
+    "server": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info --bind 0.0.0.0 -b http://localhost",
     "server:production": "npm run start -- --environment production",
     "preupdate": "git submodule update --init --recursive && git submodule update --remote --merge",
-    "update": "hugo mod get -u && hugo mod tidy && hugo mod graph"
+    "update": "hugo mod get -u ./... && hugo mod tidy",
+    "list:mods": "hugo mod graph",
+    "list": "hugo list all",
+    "start": "npm run server"
   },
   "repository": {
     "type": "git",
