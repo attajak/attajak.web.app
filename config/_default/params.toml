@@ -141,7 +141,7 @@ mobileMode = "auto"
 # Header title config
 [header.title]
 # URL of the LOGO
-logo = "/favicon.ico"
+logo = "/images/attajak.png"
 # title name
 name = "Attajak"
 # you can add extra information before the name (HTML format is supported), such as icons
