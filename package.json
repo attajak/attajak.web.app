@@ -9,12 +9,13 @@
     "clean": "rm -rf .hugo_build.lock resources public _vendor",
     "build": "hugo --gc --minify --logLevel info",
     "server": "hugo server -D -E -F -N -M -O --disableFastRender --ignoreCache --logLevel info --bind 0.0.0.0 -b http://localhost",
-    "preview": "npm run start -- -e production",
+    "server:prod": "npm run start -- -e production",
     "prepare": "git submodule update --init --recursive && git submodule update --remote --merge",
     "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy",
     "list:mods": "hugo mod graph",
     "list": "hugo list all",
-    "start": "npm run server"
+    "start": "npm run server",
+    "deploy": "firebase deploy"
   },
   "repository": {
     "type": "git",

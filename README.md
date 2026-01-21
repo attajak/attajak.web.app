@@ -2,9 +2,11 @@
 
 ## Deploy status
 
-  - Firebase Hosting [![Deploy to Firebase Hosting on merge](https://github.com/attajak/attajak.web.app/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/firebase-hosting-merge.yml)
+  - Firebase Hosting 
+    [![Deploy to Live Channel](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml)
 
-  - Auto update hugo modules ([FixIt-bundle](https://github.com/hugo-fixit/fixit-bundle)) [![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)
+  - Auto update hugo modules ([FixIt-bundle](https://github.com/hugo-fixit/fixit-bundle)) 
+    [![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)
 
 # This site using [FixIt-bundle (Hugo FixIt Components)](https://github.com/hugo-fixit/fixit-bundle)
 
