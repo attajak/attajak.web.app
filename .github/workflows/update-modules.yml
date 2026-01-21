@@ -37,6 +37,7 @@ jobs:
           hugo mod graph
 
       - name: Generate hugo-fixit component list
+        id: action-component-list
         uses: hugo-fixit/action-component-list@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,6 +46,10 @@ jobs:
           readme_path: 'README.md'
           # exclude_repos: 'fixit-bundle'
           template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description}"
+
+      - name: Print Output
+        id: output
+        run: echo "${{ steps.action-component-list.outputs.repos }}"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7
