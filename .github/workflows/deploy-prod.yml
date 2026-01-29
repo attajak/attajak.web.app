@@ -34,7 +34,7 @@ defaults:
   run:
     shell: bash
 jobs:
-  build:
+  build_and_deploy:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.97.2
@@ -109,17 +109,6 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./public
-  deploy:
-    environment:
-      name: production
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to Firebase Hosting (Profuction)
         id: deployment
         uses: FirebaseExtended/action-hosting-deploy@v0

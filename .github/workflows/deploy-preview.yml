@@ -87,17 +87,6 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./public
-  deploy:
-    environment:
-      name: preview
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build_and_preview
-    steps:
       - name: Deploy to Firebase Hosting (Preview)
         id: deployment
         uses: FirebaseExtended/action-hosting-deploy@v0
