@@ -1,4 +1,4 @@
-# [Attajak](https://attajak.web.app)
+# [attajak.web.app](https://attajak.web.app)
 
 ## Deploy status
 
