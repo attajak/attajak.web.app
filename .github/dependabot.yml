@@ -9,16 +9,21 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Asia/Bangkok"
     open-pull-requests-limit: 1000
     assignees:
       - "attajak"
     labels:
-      - "dependencies"
-      - "actions"
+      - "github-actions"
   - package-ecosystem: "gomod" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Asia/Bangkok"
     open-pull-requests-limit: 1000
     assignees:
       - "attajak"
@@ -30,6 +35,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Asia/Bangkok"
     open-pull-requests-limit: 1000
     assignees:
       - "attajak"
