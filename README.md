@@ -3,8 +3,8 @@
 ## Deploy status
 
 [![Deploy to Live Channel](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml)
-[![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)
 [![Deploy to Firebase Hosting on PR](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml)
+[![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)
 
 # Hugo FixIt Components [FixIt-bundle](https://github.com/hugo-fixit/fixit-bundle)
 
