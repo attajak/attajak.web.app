@@ -1,6 +1,6 @@
 # [attajak.web.app](https://attajak.web.app)
 
-## Deploy status
+## GitHub actions status
 
 [![Deploy to Live Channel](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml)
 [![Deploy to Firebase Hosting on PR](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml)
