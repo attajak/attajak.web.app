@@ -16,8 +16,10 @@ on:
       - 'layouts/**'
       - 'static/**'
       - 'themes/**'
-      - 'go.mod'
-      - 'go.sum'
+      - 'hugo.*'
+      - 'config.*'
+      - 'go.*'
+      - 'firebase.json'
   workflow_run:
     workflows: ['Update modules']
     types:
