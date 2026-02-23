@@ -41,7 +41,7 @@ jobs:
     env:
       DART_SASS_VERSION: 1.97.3
       GO_VERSION: 1.25.6
-      HUGO_VERSION: 0.155.3
+      HUGO_VERSION: 0.156.0
       NODE_VERSION: 24.13.0
       TZ: Asia/Bangkok
     steps:
@@ -111,7 +111,7 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-      - name: Deploy to Firebase Hosting (Profuction)
+      - name: Deploy to Firebase Hosting Live Channel
         id: deployment
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
