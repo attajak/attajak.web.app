@@ -8,7 +8,7 @@ version = "0.4.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
 description = "attajak.web.app"
 # site keywords
-keywords = ["firebase", "attajak", "hugo", "fixit"]
+keywords = ["firebase", "hosting", "attajak", "janrak", "hugo", "fixit"]
 # site default theme ["light", "dark", "auto"]
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
