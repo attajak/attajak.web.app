@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "create": "hugo new content",
-    "clean": "rm -rf .hugo_build.lock _vendor/ resources/ public/",
+    "clean": "hugo mod clean && rm -rf .hugo_build.lock _vendor/ resources/ public/",
     "build": "hugo --gc --minify --logLevel info",
-    "server": "hugo server -D -E -F -N -M -O --disableFastRender --ignoreCache --logLevel info --bind 0.0.0.0 -b http://localhost",
+    "server": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info --bind 0.0.0.0 -b http://localhost",
     "preview": "npm run server -- -e production",
     "prepare": "git submodule update --init --recursive && git submodule update --remote --merge",
     "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy",
