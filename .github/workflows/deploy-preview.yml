@@ -4,6 +4,7 @@ permissions:
   checks: write
   contents: read
   id-token: write
+  pages: write
   pull-requests: write
 concurrency:
   group: pages
@@ -12,7 +13,7 @@ defaults:
   run:
     shell: bash
 jobs:
-  build_and_preview:
+  build:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
     env:
@@ -88,7 +89,16 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: ${{ steps.cache-restore.outputs.cache-primary-key }}
-      - name: Firebase Hosting Deploy To Preview Channel
+
+  deploy_preview:
+    environment:
+      name: preview
+    run-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Deploy To Preview Channel
         id: preview
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
