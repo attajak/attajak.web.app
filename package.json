@@ -11,7 +11,7 @@
     "server": "hugo server -D -E -F -N -M -O --disableFastRender --logLevel info --bind 0.0.0.0 -b http://localhost",
     "preview": "npm run server -- -e production",
     "prepare": "git submodule update --init --recursive && git submodule update --remote --merge",
-    "update": "hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy",
+    "update": "hugo mod get -u && hugo mod tidy",
     "list:mods": "hugo mod graph",
     "list:content": "hugo list all",
     "start": "npm run server",
