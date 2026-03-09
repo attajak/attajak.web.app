@@ -10,8 +10,8 @@ github.com/hugo-fixit/cmpt-translate v1.12.0 h1:HQqcL3CwC5CDkJtMBACP9QIXlXJpAw4x
 github.com/hugo-fixit/cmpt-translate v1.12.0/go.mod h1:JZ0STubquTlRgyyGhGPlt2s0KJ1gCa99+P8ltTwQRM4=
 github.com/hugo-fixit/component-projects v1.10.0 h1:PCGSLvOXr+bef/3jnElZ9VUMdk54v3H8mFniihEoNos=
 github.com/hugo-fixit/component-projects v1.10.0/go.mod h1:nXW0R37REwpfwUD1I4RtB5QW71vw66nRyB9uEpYxr+c=
-github.com/hugo-fixit/fixit-bundle v1.6.4 h1:mKOffZ116lNZXxSdGNL4YTdCklDdD/68kVQHQwckrdQ=
-github.com/hugo-fixit/fixit-bundle v1.6.4/go.mod h1:nPqsgcLcPXX5oEV20A3qsiG3usGZ5R8gfnA6BdIo/EY=
+github.com/hugo-fixit/fixit-bundle v1.6.5 h1:n+h6oGluHeXqxPaTe38+ZUtT+eHARxhYq7PxpYX6VVQ=
+github.com/hugo-fixit/fixit-bundle v1.6.5/go.mod h1:uAKIyfB3DeElz1mMqXOD2GsmLyNGDObNm9ukTIhi4XQ=
 github.com/hugo-fixit/hugo-atom-feed v1.3.1 h1:zR27plOr4DJEwK8amHdzVthoQLTb6truUYWLDRVDRXY=
 github.com/hugo-fixit/hugo-atom-feed v1.3.1/go.mod h1:VL3kInxTH5EL+XjEhpo0ZW44fDhq6TI0qlKTFihg5hk=
 github.com/hugo-fixit/hugo-json-feed v1.3.1 h1:WUeynNiYZm4i8t7V2LS3fLv03T0u6sOdJOdHGg3500U=
