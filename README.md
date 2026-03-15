@@ -2,9 +2,7 @@
 
 ## GitHub actions status
 
-[![Deploy to Live Channel](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-prod.yml)
-[![Deploy to Firebase Hosting on PR](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml)
-[![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)
+[![Build and deploy to Firebase Hosting](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-live.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-live.yml) | [![Build and Deploy to Firebase Hosting on PR](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml) | [![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)
 
 # Hugo FixIt Components [FixIt-bundle](https://github.com/hugo-fixit/fixit-bundle)
 
