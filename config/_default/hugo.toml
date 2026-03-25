@@ -12,9 +12,9 @@ baseURL = "/"
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "th"
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "th"
+locale = "th"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "Thai"
+label = "Thai"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = true
 # copyright description used only for seo schema
