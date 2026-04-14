@@ -1,0 +1,226 @@
+{
+  "version": "1",
+  "media_path": "",
+  "frontmatter_format": "yaml",
+  "sitemap_url": "https://attajak.web.app/sitemap.xml",
+  "publishing_mode": "editorial_workflow",
+  "collections": [
+    {
+      "name": "posts",
+      "git_path": "/content/posts/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "flat",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "subtitle",
+          "type": "text",
+          "label": "Subtitle"
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "label": "Date"
+        },
+        {
+          "name": "slug",
+          "type": "text",
+          "label": "Slug"
+        },
+        {
+          "name": "draft",
+          "type": "boolean",
+          "label": "Draft",
+          "default": false
+        },
+        {
+          "name": "description",
+          "type": "richtext",
+          "label": "Description"
+        },
+        {
+          "name": "keywords",
+          "type": "multiselect",
+          "label": "Keywords",
+          "options": [
+            "google",
+            "firebase",
+            "บทความ"
+          ],
+          "color": "blue"
+        },
+        {
+          "name": "license",
+          "type": "text",
+          "label": "License"
+        },
+        {
+          "name": "comment",
+          "type": "boolean",
+          "label": "Comment",
+          "default": true
+        },
+        {
+          "name": "weight",
+          "type": "number",
+          "label": "Weight"
+        },
+        {
+          "name": "tags",
+          "type": "multiselect",
+          "label": "Tags",
+          "options": [
+            "google",
+            "firebase"
+          ],
+          "color": "blue"
+        },
+        {
+          "name": "categories",
+          "type": "multiselect",
+          "label": "Categories",
+          "options": [
+            "google"
+          ],
+          "color": "blue"
+        },
+        {
+          "name": "hiddenFromHomePage",
+          "type": "boolean",
+          "label": "Hidden From Home Page",
+          "default": false
+        },
+        {
+          "name": "hiddenFromSearch",
+          "type": "boolean",
+          "label": "Hidden From Search",
+          "default": false
+        },
+        {
+          "name": "hiddenFromRelated",
+          "type": "boolean",
+          "label": "Hidden From Related",
+          "default": false
+        },
+        {
+          "name": "hiddenFromFeed",
+          "type": "boolean",
+          "label": "Hidden From Feed",
+          "default": false
+        },
+        {
+          "name": "summary",
+          "type": "richtext",
+          "label": "Summary"
+        },
+        {
+          "name": "resources",
+          "type": "list",
+          "label": "Resources"
+        },
+        {
+          "name": "toc",
+          "type": "boolean",
+          "label": "Toc",
+          "default": true
+        },
+        {
+          "name": "math",
+          "type": "boolean",
+          "label": "Math",
+          "default": false
+        },
+        {
+          "name": "lightgallery",
+          "type": "boolean",
+          "label": "Lightgallery",
+          "default": false
+        },
+        {
+          "name": "password",
+          "type": "text",
+          "label": "Password"
+        },
+        {
+          "name": "message",
+          "type": "text",
+          "label": "Message"
+        },
+        {
+          "name": "repost",
+          "type": "json",
+          "label": "Repost"
+        }
+      ]
+    },
+    {
+      "name": "projects",
+      "git_path": "/content/projects/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "flat",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "titleIcon",
+          "type": "text",
+          "label": "Title Icon"
+        },
+        {
+          "name": "subtitle",
+          "type": "text",
+          "label": "Subtitle"
+        },
+        {
+          "name": "sectionSlot",
+          "type": "text",
+          "label": "Section Slot"
+        },
+        {
+          "name": "layout",
+          "type": "text",
+          "label": "Layout"
+        },
+        {
+          "name": "draft",
+          "type": "boolean",
+          "label": "Draft",
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "search",
+      "git_path": "/content/search/",
+      "file_extension": ".md",
+      "filename_pattern": "",
+      "collection_type": "flat",
+      "frontmatter_schema": [
+        {
+          "name": "title",
+          "type": "title",
+          "label": "Title"
+        },
+        {
+          "name": "layout",
+          "type": "text",
+          "label": "Layout"
+        },
+        {
+          "name": "date",
+          "type": "datetime",
+          "label": "Date"
+        }
+      ]
+    }
+  ]
+}
