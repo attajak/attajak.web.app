@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "media_path": "/static",
+  "ssg_framework": "hugo",
+  "frontmatter_format": "yaml",
+  "sitemap_url": "https://attajak.web.app/sitemap.xml",
+  "publishing_mode": "editorial_workflow",
+  "collections": []
+}

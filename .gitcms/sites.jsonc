@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "key": "default",
+      "display_name": "Default",
+      "website_url": "https://attajak.web.app",
+      "root_path": "config/_default"
+    }
+  ]
+}
