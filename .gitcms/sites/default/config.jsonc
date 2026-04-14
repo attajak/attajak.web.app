@@ -5,5 +5,12 @@
   "frontmatter_format": "yaml",
   "sitemap_url": "https://attajak.web.app/sitemap.xml",
   "publishing_mode": "editorial_workflow",
-  "collections": []
+  "collections": [
+    {
+      "name": "",
+      "git_path": "",
+      "file_extension": ".md",
+      "filename_pattern": ""
+    }
+  ]
 }
