@@ -5,7 +5,7 @@
       "key": "default",
       "display_name": "Attajak",
       "website_url": "https://attajak.web.app",
-      "root_path": "config/_default"
+      "root_path": ""
     }
   ]
 }

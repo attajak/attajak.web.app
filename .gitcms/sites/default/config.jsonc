@@ -7,10 +7,10 @@
   "publishing_mode": "editorial_workflow",
   "collections": [
     {
-      "name": "",
-      "git_path": "",
+      "name": "posts",
+      "git_path": "/content/posts",
       "file_extension": ".md",
-      "filename_pattern": ""
+      "filename_pattern": "{title}.md",
     }
   ]
 }
