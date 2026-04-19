@@ -47,6 +47,7 @@ jobs:
       HUGO_VERSION: 0.160.1
       NODE_VERSION: 24.14.1
       TZ: Asia/Bangkok
+      GITHUB_PAGES: false
     steps:
       - name: Checkout
         uses: actions/checkout@v6
