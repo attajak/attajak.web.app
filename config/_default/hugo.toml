@@ -30,3 +30,5 @@ enableEmoji = true
 # otherwise it returns the section with the most pages.
 mainSections = ["posts"]
 ignoreLogs = ["error-get-remote-json"]
+# timzone for date and time functions
+timeZone = "Asia/Bangkok"
