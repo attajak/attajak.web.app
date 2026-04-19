@@ -16,12 +16,16 @@ jobs:
   build_and_deploy_preview:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-latest
+    environment:
+      name: preview
+      url: https://attajak--preview-aqqxgjtj.web.app
     env:
-      DART_SASS_VERSION: 1.98.0
-      GO_VERSION: 1.26.1
-      HUGO_VERSION: 0.159.1
+      DART_SASS_VERSION: 1.99.0
+      GO_VERSION: 1.26.2
+      HUGO_VERSION: 0.160.1
       NODE_VERSION: 24.14.1
       TZ: Asia/Bangkok
+      GITHUB_PAGES: false
     steps:
       - name: Checkout
         uses: actions/checkout@v6
