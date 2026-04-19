@@ -18,7 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: preview
-      url: https://attajak--preview-aqqxgjtj.web.app
+      # url: https://attajak--preview-h6jro66b.web.app
+      url: ${{ steps.preview.outputs.result.url }}
     env:
       DART_SASS_VERSION: 1.99.0
       GO_VERSION: 1.26.2
