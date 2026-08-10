@@ -15,6 +15,6 @@ require (
 	github.com/hugo-fixit/shortcode-caniuse v1.6.0 // indirect
 	github.com/hugo-fixit/shortcode-docs-bookmark v1.1.2 // indirect
 	github.com/hugo-fixit/shortcode-missing-translation v1.2.0 // indirect
-	github.com/hugo-fixit/shortcode-mmt-netease v1.4.0 // indirect
+	github.com/hugo-fixit/shortcode-mmt-netease v1.5.0 // indirect
 	github.com/hugo-fixit/shortcode-rewards v1.1.1 // indirect
 )
