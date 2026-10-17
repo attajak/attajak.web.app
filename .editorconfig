@@ -13,6 +13,7 @@ insert_final_newline = true
 [*.{md,rst}]
 trim_trailing_whitespace = false
 
-[*.{toml,yaml,yml}]
+[*.{toml,y{a,}ml}]
 indent_style = space
 indent_size = 2
+insert_final_newline = false

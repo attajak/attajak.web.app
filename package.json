@@ -4,10 +4,10 @@
   "private": "true",
   "description": "This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.",
   "scripts": {
-    "create": "hugo new content",
-    "clean": "hugo mod clean && rm -rf .hugo_build.lock _vendor/ resources/ public/",
+    "new": "hugo new",
+    "clean": "hugo mod clean && rm -rf .hugo_build.lock _vendor/ resources/ public/ node_modules/",
     "build": "hugo --gc --minify --logLevel info",
-    "server": "hugo server -D -E -F -N -M -O --gc --minify --disableFastRender --printMemoryUsage --logLevel info --bind 0.0.0.0 -b http://localhost:1313",
+    "server": "hugo server -D -E -F -N -M -O --gc --minify --disableFastRender --noBuildLock --printMemoryUsage --logLevel info --bind 0.0.0.0 -b http://localhost:1313",
     "preview": "npm run server -- -e production",
     "prepare": "git submodule update --init --recursive",
     "update": "git submodule update --remote --merge && hugo mod get -u github.com/hugo-fixit/fixit-bundle@latest && hugo mod tidy && hugo mod graph",
@@ -23,7 +23,7 @@
   "author": {
     "name": "attajak",
     "email": "janrak@gmail.com",
-    "link": "https://github.com/attajak"
+    "url": "https://github.com/attajak"
   },
   "license": "MIT",
   "bugs": {

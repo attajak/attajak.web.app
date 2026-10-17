@@ -1,7 +1,6 @@
 # -------------------------------------------------------------------------------------
-# Imaging Configuration
-# See: https://gohugo.io/configuration/imaging/
+# Build Configuration
+# See: https://gohugo.io/configuration/build/
 # -------------------------------------------------------------------------------------
 
-_merge = "shallow"
-quality = 75
+noJSConfigInAssets = true

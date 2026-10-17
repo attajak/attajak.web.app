@@ -1,9 +1,19 @@
 # -------------------------------------------------------------------------------------
+# Media Types Configuration
+# See: https://gohugo.io/configuration/media-types/
+# -------------------------------------------------------------------------------------
+
+# [mediaTypes]
+
+# [mediaTypes."application/feed+json"]
+# suffixes = [ "json" ]
+
+# -------------------------------------------------------------------------------------
 # Output Format Configuration
 # See: https://gohugo.io/configuration/output-formats/
 # -------------------------------------------------------------------------------------
 
-# FixIt 0.3.0 | NEW Options to make output /archives/index.html file
+# Options to make output /archives/index.html file
 [archives]
 path = "archives"
 baseName = "index"
@@ -13,7 +23,7 @@ isHTML = true
 permalinkable = true
 notAlternative = true
 
-# FixIt 0.3.0 | NEW Options to make output /offline/index.html file
+# Options to make output /offline/index.html file
 [offline]
 path = "offline"
 baseName = "index"
@@ -23,7 +33,17 @@ isHTML = true
 permalinkable = true
 notAlternative = true
 
-# FixIt 0.3.0 | NEW Options to make output readme.md file
+# Options to make output /link/index.html file
+[link]
+path = "link"
+baseName = "index"
+mediaType = "text/html"
+isPlainText = false
+isHTML = true
+permalinkable = true
+notAlternative = true
+
+# Options to make output readme.md file
 [readme]
 baseName = "readme"
 mediaType = "text/markdown"
@@ -31,7 +51,7 @@ isPlainText = true
 isHTML = false
 notAlternative = true
 
-# FixIt 0.3.0 | CHANGED Options to make output baidu_urls.txt file
+# Options to make output baidu_urls.txt file
 [baidu_urls]
 baseName = "baidu_urls"
 mediaType = "text/plain"
@@ -39,7 +59,7 @@ isPlainText = true
 isHTML = false
 notAlternative = true
 
-# FixIt 0.3.10 | NEW Options to make output search.json file
+# Options to make output search.json file
 [search]
 baseName = "search"
 mediaType = "application/json"
@@ -47,3 +67,20 @@ rel = "search"
 isPlainText = true
 isHTML = false
 permalinkable = true
+
+# Options to make output site.webmanifest file
+[manifest]
+baseName = "site"
+mediaType = "application/manifest+json"
+rel = "manifest"
+isPlainText = true
+isHTML = false
+
+# Options to make output llms.txt file (AI-friendly site map).
+# Add "llms" to home outputs to enable.
+[llms]
+baseName = "llms"
+mediaType = "text/plain"
+isPlainText = true
+isHTML = false
+notAlternative = true

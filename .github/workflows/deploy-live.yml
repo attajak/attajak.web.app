@@ -42,10 +42,10 @@ jobs:
       name: production
       url: https://attajak.web.app
     env:
-      DART_SASS_VERSION: 1.99.0
-      GO_VERSION: 1.26.2
-      HUGO_VERSION: 0.160.1
-      NODE_VERSION: 24.14.1
+      DART_SASS_VERSION: 1.103.1
+      GO_VERSION: 1.27.0
+      HUGO_VERSION: 0.165.0
+      NODE_VERSION: 24.18.0
       TZ: Asia/Bangkok
       GITHUB_PAGES: false
     steps:
