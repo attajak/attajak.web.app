@@ -1,0 +1,187 @@
+{
+  "attajak/attajak.github.io": {
+    "created_at": "2024-04-28T20:36:32Z",
+    "updated_at": "2026-09-20T04:38:02Z",
+    "full_name": "attajak/attajak.github.io",
+    "name": "attajak.github.io",
+    "html_url": "https://github.com/attajak/attajak.github.io",
+    "homepage": "https://attajak.github.io/",
+    "description": "My GitHub Page",
+    "default_branch": "main",
+    "visibility": "public",
+    "is_template": false,
+    "archived": false,
+    "language": "Ruby",
+    "topics": [
+      "github-pages",
+      "jekyll",
+      "minimal-mistakes"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "owner": {
+      "login": "attajak",
+      "html_url": "https://github.com/attajak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9761389?v=4"
+    },
+    "readme": {
+      "content": "# [attajak.github.io](https://attajak.github.io)\n\n[![Deploy Jekyll site to Pages](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/attajak.github.io/actions/workflows/dependabot/dependabot-updates) | [![@Attajak on Replit](https://replit.com/badge?caption=Attajak%20on%20Replit)](https://replit.com/@attajak)\n\n## About\n\n**ชื่อ** คิง\n\n**เกิด** ๘ สิงหาฯ\n\n**เลือดกรุ๊ป** เอ\n\n**ชอบ**_ดูหนัง-อนิเมะ_ _ฟังเพลง_ _เล่นเกม_\n\n[![attajak](https://attajak.github.io/assets/images/attajak.png)](https://attajak.github.io)\n\n## Quotes\n\n> แค่อยากทำหน้าที่ให้ดีที่สุด ไม่ได้อยากเป็นวีรบุรุษของใคร \n\n> งานมีขี้บ่อย งานน้อยไม่ค่อยขี้ งานไม่มีไม่ขี้เลย                              \n\n## Contact\n\n| Platforms | Username/Links |\n| :--- | :--- |\n| GitHub: | [attajak](https://github.com/attajak) |\n| GitHub Pages: | <https://attajak.github.io> |\n| GitLab: | [attajak](https://gitlab.com/attajak) |\n| GitLab Pages: | <https://attajak.gitlab.io> |\n| BitBucket: | [attajakjanrak](https://bitbucket.org/attajakjanrak/) |\n| BitBucket Pages: | <https://attajakjanrak.bitbucket.io> |\n| Google Firebase: | <https://attajak.web.app> |\n| CloudFlare Pages: | <https://attajak.pages.dev> |\n| Netlify: | <https://attajak.netlify.app> |\n| Vercel: | <https://attajak.vercel.app> |\n| WordPress: | <https://attajak.wordpress.com> |\n| Blogger: | <https://attajak.blogspot.com> |\n| Replit: | [@attajak](https://replit.com/@attajak) |\n| Facebook: | [attajak](https://facebook.com/attajak) |\n| X/Twitter: | [@attajak](https://x.com/attajak) |\n| Fediverse | [@attajak@mastodon.in.th](https://mastodon.in.th/@attajak) |\n| Threads: | [@attajak](https://www.threads.net/@attajak) |\n| Instagram: | [attajak](https://instagram.com/attajak) |\n| YouTube: | [@attajak](https://youtube.com/@attajak) |\n| Linkedin: | [attajak](https:/linkedin.com/in/attajak) |\n| Gmail: | [Janrak at Gmail.com](mailto:janrak@gmail.com) |\n| Outlook: | [Attajak at Outlook.com](mailto:attajak@outlook.com) |\n",
+      "html_url": "https://github.com/attajak/attajak.github.io/blob/main/README.md"
+    }
+  },
+  "attajak/attajak.pages.dev": {
+    "created_at": "2024-04-23T03:32:51Z",
+    "updated_at": "2026-10-03T07:31:53Z",
+    "full_name": "attajak/attajak.pages.dev",
+    "name": "attajak.pages.dev",
+    "html_url": "https://github.com/attajak/attajak.pages.dev",
+    "homepage": "https://attajak.pages.dev",
+    "description": "CloudFlare Pages https://pages.cloudflare.com (Preview: https://attajak.github.io/attajak.pages.dev/)",
+    "default_branch": "main",
+    "visibility": "public",
+    "is_template": false,
+    "archived": false,
+    "language": "TOML",
+    "topics": [
+      "attajak",
+      "cloudflare-pages",
+      "fixit",
+      "hugo",
+      "replit"
+    ],
+    "stargazers_count": 4,
+    "forks_count": 1,
+    "owner": {
+      "login": "attajak",
+      "html_url": "https://github.com/attajak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9761389?v=4"
+    },
+    "readme": {
+      "content": "# [attajak.pages.dev](https://attajak.pages.dev/)\n\n## [Preview on GitHub-Pages](https://attajak.github.io/attajak.pages.dev/)\n[![Hugo build and deploy](https://github.com/attajak/attajak.pages.dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/attajak/attajak.pages.dev/actions/workflows/deploy.yml)\n\n## FixIt component list\n<!-- HUGO_FIXIT_COMPONENTS:START -->\n- [fixit-bundle](https://github.com/hugo-fixit/fixit-bundle)\\\n 🌲 Bundles the FixIt core theme and all hugo-fixit components into a single component.\n- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)\\\n 🐟 A canvas implemented animation effect of small fish swimming.\n- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\\\n Mobile devtools component powered by vConsole and eruda.\n- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat)\\\n A Christmas Easter Egg by JavaScript.\n- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\\\n 🌐 A component for site automatic translation.\n- [component-projects](https://github.com/hugo-fixit/component-projects)\\\n 🐙 Display your GitHub projects in the FixIt theme and generate blog posts from readme.\n- [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\\\n Hugo theme component for ATOM feed custom Output Format.\n- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)\\\n Hugo theme component for JSON feed custom Output Format.\n- [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\\\n A Hugo theme component with asciinema-embed shortcode.\n- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\\\n A Hugo theme component with caniuse shortcode.\n- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\\\n 🔖 Embed bookmark of FixIt Docs.\n- [shortcode-missing-translation](https://github.com/hugo-fixit/shortcode-missing-translation)\\\n A Hugo theme component with missing-translation shortcode.\n- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)\\\n 🎶 A Hugo theme component with a NetEase Cloud random comment shortcode.\n- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)\\\n A Hugo theme component with reward-log or sponsor-log shortcode.\n<!-- HUGO_FIXIT_COMPONENTS:END -->\n",
+      "html_url": "https://github.com/attajak/attajak.pages.dev/blob/main/README.md"
+    }
+  },
+  "attajak/attajak.vercel.app": {
+    "created_at": "2025-02-12T10:11:21Z",
+    "updated_at": "2026-10-03T07:32:39Z",
+    "full_name": "attajak/attajak.vercel.app",
+    "name": "attajak.vercel.app",
+    "html_url": "https://github.com/attajak/attajak.vercel.app",
+    "homepage": "https://attajak.vercel.app",
+    "description": "Hugo + hugo-fixit/fixit-bundle",
+    "default_branch": "main",
+    "visibility": "public",
+    "is_template": false,
+    "archived": false,
+    "language": "TOML",
+    "topics": [
+      "fixit",
+      "fixit-bundle",
+      "hugo",
+      "vercel"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "owner": {
+      "login": "attajak",
+      "html_url": "https://github.com/attajak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9761389?v=4"
+    },
+    "readme": {
+      "content": "# Hugo FixIt Bundle (Components list)\n\n<!-- HUGO_FIXIT_COMPONENTS:START -->\n- [fixit-bundle](https://github.com/hugo-fixit/fixit-bundle)\\\n 🌲 Bundles the FixIt core theme and all hugo-fixit components into a single component.\n- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)\\\n 🐟 A canvas implemented animation effect of small fish swimming.\n- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\\\n Mobile devtools component powered by vConsole and eruda.\n- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat)\\\n A Christmas Easter Egg by JavaScript.\n- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\\\n 🌐 A component for site automatic translation.\n- [component-projects](https://github.com/hugo-fixit/component-projects)\\\n 🐙 Display your GitHub projects in the FixIt theme and generate blog posts from readme.\n- [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\\\n Hugo theme component for ATOM feed custom Output Format.\n- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)\\\n Hugo theme component for JSON feed custom Output Format.\n- [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\\\n A Hugo theme component with asciinema-embed shortcode.\n- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\\\n A Hugo theme component with caniuse shortcode.\n- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\\\n 🔖 Embed bookmark of FixIt Docs.\n- [shortcode-missing-translation](https://github.com/hugo-fixit/shortcode-missing-translation)\\\n A Hugo theme component with missing-translation shortcode.\n- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)\\\n 🎶 A Hugo theme component with a NetEase Cloud random comment shortcode.\n- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)\\\n A Hugo theme component with reward-log or sponsor-log shortcode.\n<!-- HUGO_FIXIT_COMPONENTS:END -->\n",
+      "html_url": "https://github.com/attajak/attajak.vercel.app/blob/main/README.md"
+    }
+  },
+  "attajak/attajak.web.app": {
+    "created_at": "2024-11-30T08:58:56Z",
+    "updated_at": "2026-10-17T15:35:55Z",
+    "full_name": "attajak/attajak.web.app",
+    "name": "attajak.web.app",
+    "html_url": "https://github.com/attajak/attajak.web.app",
+    "homepage": "https://attajak.web.app",
+    "description": "Google Firebase Hosting",
+    "default_branch": "main",
+    "visibility": "public",
+    "is_template": false,
+    "archived": false,
+    "language": "TOML",
+    "topics": [
+      "firebase",
+      "fixit",
+      "google",
+      "hosting",
+      "hugo-fixit"
+    ],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "owner": {
+      "login": "attajak",
+      "html_url": "https://github.com/attajak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9761389?v=4"
+    },
+    "readme": {
+      "content": "# [attajak.web.app](https://attajak.web.app)\n\n## GitHub actions status\n\n[![Build and deploy to Firebase Hosting](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-live.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-live.yml) | [![Build and Deploy to Firebase Hosting on PR](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/deploy-preview.yml) | [![Update modules](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml/badge.svg)](https://github.com/attajak/attajak.web.app/actions/workflows/update-modules.yml)\n\n# Hugo FixIt Components [FixIt-bundle](https://github.com/hugo-fixit/fixit-bundle)\n\n<!-- HUGO_FIXIT_COMPONENTS:START -->\n- [fixit-bundle](https://github.com/hugo-fixit/fixit-bundle)\\\n 🌲 Bundles the FixIt core theme and all hugo-fixit components into a single component.\n- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)\\\n 🐟 A canvas implemented animation effect of small fish swimming.\n- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\\\n Mobile devtools component powered by vConsole and eruda.\n- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat)\\\n A Christmas Easter Egg by JavaScript.\n- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\\\n 🌐 A component for site automatic translation.\n- [component-projects](https://github.com/hugo-fixit/component-projects)\\\n 🐙 Display your GitHub projects in the FixIt theme and generate blog posts from readme.\n- [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\\\n Hugo theme component for ATOM feed custom Output Format.\n- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)\\\n Hugo theme component for JSON feed custom Output Format.\n- [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\\\n A Hugo theme component with asciinema-embed shortcode.\n- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\\\n A Hugo theme component with caniuse shortcode.\n- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\\\n 🔖 Embed bookmark of FixIt Docs.\n- [shortcode-missing-translation](https://github.com/hugo-fixit/shortcode-missing-translation)\\\n A Hugo theme component with missing-translation shortcode.\n- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)\\\n 🎶 A Hugo theme component with a NetEase Cloud random comment shortcode.\n- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)\\\n A Hugo theme component with reward-log or sponsor-log shortcode.\n<!-- HUGO_FIXIT_COMPONENTS:END -->\n",
+      "html_url": "https://github.com/attajak/attajak.web.app/blob/main/README.md"
+    }
+  },
+  "attajak/blog": {
+    "created_at": "2024-04-30T21:39:03Z",
+    "updated_at": "2026-06-24T03:46:54Z",
+    "full_name": "attajak/blog",
+    "name": "blog",
+    "html_url": "https://github.com/attajak/blog",
+    "homepage": "https://attajak.github.io/blog/",
+    "description": "Attajak's blog.",
+    "default_branch": "main",
+    "visibility": "public",
+    "is_template": false,
+    "archived": false,
+    "language": "Ruby",
+    "topics": [
+      "attajak",
+      "blog",
+      "github-pages",
+      "jekyll"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "owner": {
+      "login": "attajak",
+      "html_url": "https://github.com/attajak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9761389?v=4"
+    },
+    "readme": {
+      "content": "# Attajak's blog\n\n[![Deploy Jekyll site to Pages](https://github.com/attajak/blog/actions/workflows/jekyll.yml/badge.svg)](https://github.com/attajak/blog/actions/workflows/jekyll.yml) | [![Dependabot Updates](https://github.com/attajak/blog/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/attajak/blog/actions/workflows/dependabot/dependabot-updates)\n",
+      "html_url": "https://github.com/attajak/blog/blob/main/README.md"
+    }
+  },
+  "attajak/attajak.netlify.app": {
+    "created_at": "2024-06-21T06:35:46Z",
+    "updated_at": "2026-10-10T05:12:43Z",
+    "full_name": "attajak/attajak.netlify.app",
+    "name": "attajak.netlify.app",
+    "html_url": "https://github.com/attajak/attajak.netlify.app",
+    "homepage": "https://attajak.netlify.app",
+    "description": "Hugo + HugoBlox",
+    "default_branch": "main",
+    "visibility": "public",
+    "is_template": false,
+    "archived": false,
+    "language": "YAML",
+    "topics": [
+      "hugo",
+      "hugoblox"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "owner": {
+      "login": "attajak",
+      "html_url": "https://github.com/attajak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9761389?v=4"
+    },
+    "readme": {
+      "content": "# [Creator's Blog: Hugo Theme](https://github.com/HugoBlox/hugo-theme-data-science-blog)\n\n[![Netlify Status](https://api.netlify.com/api/v1/badges/e7bbc17c-a776-4e2e-abf7-1f36f2bdd9a8/deploy-status)](https://app.netlify.com/sites/attajak/deploys)\n\n[![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)\n\nThe **Creator's Blog** Hugo Theme empowers you to easily create your own _personal blog_ or _build a business around your content_.\n\n️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐\n\n[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)\n[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  \n[![Twitter Follow](https://img.shields.io/twitter/follow/MakeOwnable?label=Follow%20on%20Twitter)](https://x.com/MakeOwnable)\n\nEasily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.\n\n[Check out the latest demo](https://hugo-blog-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).\n\nThe integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.\n\n- 👉 [**Get Started**](https://hugoblox.com/templates/)\n- 📚 [View the **documentation**](https://docs.hugoblox.com/)\n- 💬 [Chat with the **HugoBlox Kit community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)\n- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)\n- 🐦 Share your new site with the community: [@MakeOwnable](https://x.com/MakeOwnable)  [#MadeWithHugoBlox](https://x.com/search?q=%23MadeWithHugoBlox&src=typed_query)\n- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)\n- 🚀 [Contribute improvements](https://github.com/HugoBlox/kit/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/kit/issues)\n- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/) and [Release Notes](https://github.com/HugoBlox/kit/releases)\n\n## We ask you, humbly, to support this open source movement\n\nToday we ask you to defend the open source independence of the HugoBlox Kit and themes 🐧\n\nWe're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.\n\n### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://hugoblox.com/sponsors/)\n\n## Demo credits\n\n- [Unsplash](https://unsplash.com/) images\n",
+      "html_url": "https://github.com/attajak/attajak.netlify.app/blob/main/README.md"
+    }
+  }
+}
